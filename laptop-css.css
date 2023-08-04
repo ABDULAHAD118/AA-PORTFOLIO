@@ -1,0 +1,27 @@
+.second-section {
+    display: block;
+}
+
+.second-section-bottom {
+    margin-left: 50px;
+    width: 17px;
+    height: 150px;
+}
+
+.second-section-bottom h3 {
+    width: 90vw;
+    text-align: unset;
+    margin-left: 37px;
+}
+
+.second-section-bottom .experience {
+    width: 80vw;
+    font-size: 1rem;
+    margin-left: 65px;
+    padding: 0;
+    text-align: unset;
+}
+
+.fifth {
+    display: none;
+}

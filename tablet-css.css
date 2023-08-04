@@ -1,0 +1,77 @@
+#navbar {
+    flex-direction: column;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    height: 64px;
+}
+
+.heading {
+    padding: 0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#navbar ul {
+    padding: 0px 13px;
+
+}
+
+#navbar ul li {
+    font-size: 12px;
+    padding: 11px 6px;
+}
+
+.button>.btn {
+    width: 103%;
+}
+
+.right-section {
+    width: 42%;
+}
+
+.second-section {
+    display: block;
+}
+
+.second-section-bottom {
+    margin-left: 50px;
+    width: 17px;
+    height: 190px;
+}
+
+.second-section-bottom h3 {
+    width: 80vw;
+    text-align: unset;
+    margin-left: 37px;
+}
+
+.second-section-bottom .experience {
+    width: 80vw;
+    font-size: 1rem;
+    margin-left: 65px;
+    padding: 0;
+    text-align: unset;
+}
+
+.fifth {
+    display: none;
+}
+
+.hr {
+    display: none;
+}
+
+@media screen and (max-width:570px) {
+
+    .right-section {
+        font-size: 1.6rem;
+    }
+
+    .second-section-bottom {
+        height: 208px;
+    }
+
+    .second-section-bottom .experience {
+        width: 76vw;
+    }
+}
